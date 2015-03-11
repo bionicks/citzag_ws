@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41Groups" items="${a41groupses}"
+		z="Lnegeq8lSzBl/TLEMrA869S9B2c=">
+		<table:table data="${a41groupses}" id="l_com_air41_model_A41Groups"
+			path="/a41groupses" z="7cPaVfWLVV92zKxXWF2JnpW/EzQ=">
+			<table:column id="c_com_air41_model_A41Groups_groupname"
+				property="groupname" z="w6F9V8D6C4rmsAurx+Ah+AwnoDM=" />
+			<table:column id="c_com_air41_model_A41Groups_description"
+				property="description" z="4vwGoGvuQvcAe1xF2Ka/TH6BrMg=" />
+			<table:column id="c_com_air41_model_A41Groups_superuser"
+				property="superuser" z="PK+56juF3WwjyTtu4vV3eq35h5w=" />
+			<table:column id="c_com_air41_model_A41Groups_updated"
+				property="updated" z="NfD91BRZrMTTI1Cylahz9zHpXu0=" />
+			<table:column id="c_com_air41_model_A41Groups_deleted"
+				property="deleted" z="NvhelMFyZYH9oNvA2F2ZyyOfzFs=" />
+		</table:table>
+	</page:list>
+</div>

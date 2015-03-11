@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:update id="fu_com_air41_model_A41Currencies"
+		modelAttribute="a41Currencies" path="/a41currencieses"
+		versionField="none" z="2PJ6xGIQcEzfMzDGU8PDiuBAl0U=">
+		<field:simple field="a41Countrieses"
+			id="c_com_air41_model_A41Currencies_a41Countrieses"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Countries" z="FYIGLs+K5zY+RdPpEn6qSFuIzKE=" />
+		<field:simple field="a41Customerss"
+			id="c_com_air41_model_A41Currencies_a41Customerss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Customers" z="HKu7Zo4MVzGhvR3L9T2VsYhzUNE=" />
+		<field:input field="name" id="c_com_air41_model_A41Currencies_name"
+			required="true" z="hG4xRpENwWJNbeCCOSX7srT3gcA=" />
+		<field:input field="symbol"
+			id="c_com_air41_model_A41Currencies_symbol" required="true"
+			z="yBprthrvnFSxvrtKWXTMQPHVm6c=" />
+		<field:input field="code" id="c_com_air41_model_A41Currencies_code"
+			z="x+i17BdKXICxOdme62IhgdALCZo=" />
+		<field:input field="symbolType"
+			id="c_com_air41_model_A41Currencies_symbolType"
+			z="ikc+1jOBZ2CNbABU3auSzupwuTY=" />
+	</form:update>
+</div>

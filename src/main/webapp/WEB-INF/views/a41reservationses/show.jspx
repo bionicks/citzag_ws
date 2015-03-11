@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Reservations"
+		object="${a41reservations}" path="/a41reservationses"
+		z="kg36/YjsivQTAwc4XhC74vBQliw=">
+		<field:display field="idAptInbound"
+			id="s_com_air41_model_A41Reservations_idAptInbound"
+			object="${a41reservations}" z="oVj+PR4pY2Olw1wGggRP1GoUEpw=" />
+		<field:display field="idAptOutbound"
+			id="s_com_air41_model_A41Reservations_idAptOutbound"
+			object="${a41reservations}" z="km7WYMbOEcgi9ujik8GQV1a6Xvg=" />
+		<field:display field="idFlightSegment"
+			id="s_com_air41_model_A41Reservations_idFlightSegment"
+			object="${a41reservations}" z="S6JU8V0G5JSmI+d1qH0h9C7g6qo=" />
+		<field:display field="idInvoiceEntryDetail"
+			id="s_com_air41_model_A41Reservations_idInvoiceEntryDetail"
+			object="${a41reservations}" z="3tvBVqcuGtRrDvafrxdcx0VfIM0=" />
+		<field:display field="idAircraftCell"
+			id="s_com_air41_model_A41Reservations_idAircraftCell"
+			object="${a41reservations}" z="QFMP9xDbTBOfAvHCAFNk5siM138=" />
+		<field:display field="idSeatType"
+			id="s_com_air41_model_A41Reservations_idSeatType"
+			object="${a41reservations}" z="vfvBXvNFvUL3TziEjRtCGkVkykk=" />
+		<field:display field="idOrder"
+			id="s_com_air41_model_A41Reservations_idOrder"
+			object="${a41reservations}" z="of5gkOR4Z7gKwNkWuingfuAUxiM=" />
+		<field:display field="updated"
+			id="s_com_air41_model_A41Reservations_updated"
+			object="${a41reservations}" z="JjlQkHs69WxdlLaHQqEwKCf7YW0=" />
+		<field:display field="deleted"
+			id="s_com_air41_model_A41Reservations_deleted"
+			object="${a41reservations}" z="j1L/nMmOkXLNL+Hjro/p+u3zenk=" />
+	</page:show>
+</div>

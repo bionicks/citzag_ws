@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41CharterTypes"
+		items="${a41chartertypeses}" z="KKCDhnC+f9DGRFuJu2O3NFZn+nw=">
+		<table:table data="${a41chartertypeses}"
+			id="l_com_air41_model_A41CharterTypes" path="/a41chartertypeses"
+			z="lVe8Y7SXu5BKcCVSNXpm2Li592I=">
+			<table:column id="c_com_air41_model_A41CharterTypes_code"
+				property="code" z="qtXkAGsRhuMUtdlF2Kg4uMCaCVw=" />
+		</table:table>
+	</page:list>
+</div>

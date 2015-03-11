@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41Invoices" items="${a41invoiceses}"
+		z="7VBEKpbVZzhJylWvVxaeTMPMjAA=">
+		<table:table data="${a41invoiceses}"
+			id="l_com_air41_model_A41Invoices" path="/a41invoiceses"
+			z="8OGhLBAnJZhulUwCkGa3ggIdggo=">
+			<table:column id="c_com_air41_model_A41Invoices_idAgent"
+				property="idAgent" z="zkOdWvGrr1FdE+nhPO3KGNEysz8=" />
+			<table:column id="c_com_air41_model_A41Invoices_idCarrier"
+				property="idCarrier" z="xm+rU9cVbvhdmK0yRfbEiYDXIrk=" />
+			<table:column id="c_com_air41_model_A41Invoices_idCountry"
+				property="idCountry" z="i+LK4LMMbMpmTd/HYj01S1FWgzo=" />
+			<table:column id="c_com_air41_model_A41Invoices_idCustomer"
+				property="idCustomer" z="aDC565FtqoL/7ZiMlJ+O+qz5sr0=" />
+			<table:column id="c_com_air41_model_A41Invoices_idParent"
+				property="idParent" z="REzmiBF9Ix4bCBg5NBVtXH8pxEw=" />
+			<table:column id="c_com_air41_model_A41Invoices_bookingcode"
+				property="bookingcode" z="WOqaQdJ00FV1q8KWFbRZ8HwDgvo=" />
+		</table:table>
+	</page:list>
+</div>

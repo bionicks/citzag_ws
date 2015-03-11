@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:create id="fc_com_air41_model_A41Airports"
+		modelAttribute="a41Airports" path="/a41airportses"
+		render="${empty dependencies}" z="irVFp3DobRZ0/CpjvAu9U288lIA=">
+		<field:simple field="a41GroupSeatings"
+			id="c_com_air41_model_A41Airports_a41GroupSeatings"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Group Seating"
+			z="wz8l+VJnocXya12QYYXy1eqHrbU=" />
+		<field:simple field="a41GroupSeatings1"
+			id="c_com_air41_model_A41Airports_a41GroupSeatings1"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Group Seating"
+			z="vN2IFrLARZ6fIXhP/Ezx+HcqRis=" />
+		<field:simple field="a41Reservationss"
+			id="c_com_air41_model_A41Airports_a41Reservationss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Reservations"
+			z="k385wTkmsoYap6bojOMqckscWDM=" />
+		<field:simple field="a41Reservationss1"
+			id="c_com_air41_model_A41Airports_a41Reservationss1"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Reservations"
+			z="gAcGSoVn6NIgG6yQkN5Q30oyIQk=" />
+		<field:select field="idCountry"
+			id="c_com_air41_model_A41Airports_idCountry" itemValue="id"
+			items="${a41countrieses}" path="/a41countrieses"
+			z="HxjOJbo12T2fjaHaYjx9XXWp2nI=" />
+		<field:input field="aptName"
+			id="c_com_air41_model_A41Airports_aptName" required="true"
+			z="FymUNVj21p8b76xAwMgjpUV+rbY=" />
+		<field:input field="aptNameDe"
+			id="c_com_air41_model_A41Airports_aptNameDe" required="true"
+			z="qoAjCaZl72JHa2D+1I70llHCGBY=" />
+		<field:input field="aptIataCode"
+			id="c_com_air41_model_A41Airports_aptIataCode" required="true"
+			z="V5FSwqPY2MLC6VNfjuFP4KKix80=" />
+		<field:input field="aptIcaoCode"
+			id="c_com_air41_model_A41Airports_aptIcaoCode" required="true"
+			z="+0CYgX2szhvR8VwvqyN/m90vK2I=" />
+		<field:input field="location"
+			id="c_com_air41_model_A41Airports_location" required="true"
+			z="3ZOzLuYeiZ8Gx1W2WcAMzJf5/lc=" />
+		<field:input field="locationDe"
+			id="c_com_air41_model_A41Airports_locationDe" required="true"
+			z="DCUhTzyxhnTwHaxCY2ZONxeRVfQ=" />
+		<field:input field="address"
+			id="c_com_air41_model_A41Airports_address"
+			z="A/y5JRltHSHhA9d2jX4QPSsVQ8k=" />
+		<field:input field="aptMap" id="c_com_air41_model_A41Airports_aptMap"
+			z="ePow1zZjKK6da05trbMFf+H09Gw=" />
+		<field:input field="website"
+			id="c_com_air41_model_A41Airports_website"
+			z="XKJ1blM9tXvb9UDCaw75aDV0XTc=" />
+		<field:input field="runwayLength"
+			id="c_com_air41_model_A41Airports_runwayLength"
+			validationMessageCode="field_invalid_integer"
+			z="+B8WxPMmfxyL/u7k3ZqgoFesqqs=" />
+		<field:input field="timezone"
+			id="c_com_air41_model_A41Airports_timezone"
+			validationMessageCode="field_invalid_integer"
+			z="qD2ehRoY1z1ZXtm+2Zq7j4aad2k=" />
+		<field:input field="timeadjust"
+			id="c_com_air41_model_A41Airports_timeadjust"
+			validationMessageCode="field_invalid_integer"
+			z="qK8dexDVdLLqgtJskLd4PBmHqVQ=" />
+		<field:checkbox field="summertime"
+			id="c_com_air41_model_A41Airports_summertime"
+			z="Bat4TJqlLURz4oTkLEjO6n0Guts=" />
+		<field:input field="timezoneName"
+			id="c_com_air41_model_A41Airports_timezoneName" required="true"
+			z="VAN/DJ1SW54SxC3JJW5k3WQbDUY=" />
+		<field:input field="longitude"
+			id="c_com_air41_model_A41Airports_longitude"
+			validationMessageCode="field_invalid_number"
+			z="gLXECVbwkDOllHNvLGkLfeYvymI=" />
+		<field:input field="latitude"
+			id="c_com_air41_model_A41Airports_latitude"
+			validationMessageCode="field_invalid_number"
+			z="I/fLurgFJQJLFdCUlqowfCYlKps=" />
+		<field:input field="longitudeCoord"
+			id="c_com_air41_model_A41Airports_longitudeCoord"
+			z="xKfDxmQ+8HuYyQ16UnRnz0ymtdg=" />
+		<field:input field="latitudeCoord"
+			id="c_com_air41_model_A41Airports_latitudeCoord"
+			z="ftRI9446HZaAdw0YxZd9dWGhAlQ=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41Airports_updated"
+			validationMessageCode="field_invalid_integer"
+			z="zNvMME+1DwByTVu6ZSJ/NejeW/I=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41Airports_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="AdRcSnNhVJqP/f/dBMNbcZ+l+aY=" />
+	</form:create>
+	<form:dependency dependencies="${dependencies}"
+		id="d_com_air41_model_A41Airports" render="${not empty dependencies}"
+		z="/0mBCrJHTmVAhSsT5HBVqLoQa14=" />
+</div>

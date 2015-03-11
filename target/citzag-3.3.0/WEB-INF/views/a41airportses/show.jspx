@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Airports" object="${a41airports}"
+		path="/a41airportses" z="9HNNLUmlQPvcKJ+vG/807cjMzkY=">
+		<field:display field="idCountry"
+			id="s_com_air41_model_A41Airports_idCountry" object="${a41airports}"
+			z="9N7fqVnwrL2OOrCPsA4WnvnpLlE=" />
+		<field:display field="aptName"
+			id="s_com_air41_model_A41Airports_aptName" object="${a41airports}"
+			z="ZGVQI4dm4FpRV2tdpbSTQmEEOZs=" />
+		<field:display field="aptNameDe"
+			id="s_com_air41_model_A41Airports_aptNameDe" object="${a41airports}"
+			z="VB8fe2eNJ00Hgk2IsJMda28i7gA=" />
+		<field:display field="aptIataCode"
+			id="s_com_air41_model_A41Airports_aptIataCode"
+			object="${a41airports}" z="Y4YYRgUt6tTqCDJ6gmwf6nyXmWg=" />
+		<field:display field="aptIcaoCode"
+			id="s_com_air41_model_A41Airports_aptIcaoCode"
+			object="${a41airports}" z="saWSeR63WU0Ln/ZhjQeq7qoKxk4=" />
+		<field:display field="location"
+			id="s_com_air41_model_A41Airports_location" object="${a41airports}"
+			z="Po/NEUR5oxoRD2VF9MyXJdMeJl4=" />
+		<field:display field="locationDe"
+			id="s_com_air41_model_A41Airports_locationDe" object="${a41airports}"
+			z="szDoL2SD87pfixPNMzwxMpRWSxA=" />
+		<field:display field="address"
+			id="s_com_air41_model_A41Airports_address" object="${a41airports}"
+			z="SFVnXVxv6tRmx75SKkkCUVS4q5A=" />
+		<field:display field="aptMap"
+			id="s_com_air41_model_A41Airports_aptMap" object="${a41airports}"
+			z="yuKaboHYLGjxXHQ0jR4ap2urQN0=" />
+		<field:display field="website"
+			id="s_com_air41_model_A41Airports_website" object="${a41airports}"
+			z="/RqFZc/TAYCybGsM2o3EG+xhHnI=" />
+		<field:display field="runwayLength"
+			id="s_com_air41_model_A41Airports_runwayLength"
+			object="${a41airports}" z="15l5GuxKN36xcqUEjy2fYZXxml0=" />
+		<field:display field="timezone"
+			id="s_com_air41_model_A41Airports_timezone" object="${a41airports}"
+			z="CokTSJ+hALGFdfAVXWZEFGNjiTM=" />
+		<field:display field="timeadjust"
+			id="s_com_air41_model_A41Airports_timeadjust" object="${a41airports}"
+			z="+veBy8DC2ZDPvlU5kyG/JVjnwGM=" />
+		<field:display field="summertime"
+			id="s_com_air41_model_A41Airports_summertime" object="${a41airports}"
+			z="Pj4/d0IMX1XPVkqbNStkRwWhu60=" />
+		<field:display field="timezoneName"
+			id="s_com_air41_model_A41Airports_timezoneName"
+			object="${a41airports}" z="0AGg9L6wjw+HjICXAekrMOFtD2Y=" />
+		<field:display field="longitude"
+			id="s_com_air41_model_A41Airports_longitude" object="${a41airports}"
+			z="nzbwAp8s+eFLnm059+Wnfx2VBXI=" />
+		<field:display field="latitude"
+			id="s_com_air41_model_A41Airports_latitude" object="${a41airports}"
+			z="Va7WHLX5Gi/hKPJ4/JA1if3a6/I=" />
+		<field:display field="longitudeCoord"
+			id="s_com_air41_model_A41Airports_longitudeCoord"
+			object="${a41airports}" z="XbSa7ESLGfBjTAYgYrGiiYdenx8=" />
+		<field:display field="latitudeCoord"
+			id="s_com_air41_model_A41Airports_latitudeCoord"
+			object="${a41airports}" z="RyyNQDT1+zX6C1xhv3tQiAgd+jE=" />
+		<field:display field="updated"
+			id="s_com_air41_model_A41Airports_updated" object="${a41airports}"
+			z="yulTGSOnzU2UAP0xjNju+bn4pC0=" />
+		<field:display field="deleted"
+			id="s_com_air41_model_A41Airports_deleted" object="${a41airports}"
+			z="lED2ZxY3+273Ep862L9BQIHr+dM=" />
+	</page:show>
+</div>

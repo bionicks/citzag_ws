@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41Reservations"
+		items="${a41reservationses}" z="6lpTWeLJw2pHAbwLEPqbXR2jmzg=">
+		<table:table data="${a41reservationses}"
+			id="l_com_air41_model_A41Reservations" path="/a41reservationses"
+			z="kGzrjUv9VgpnRTFpCxUtZIiLX/k=">
+			<table:column id="c_com_air41_model_A41Reservations_idAptInbound"
+				property="idAptInbound" z="nhIPw0JrzPyIOITrRHOMV7vsIvw=" />
+			<table:column id="c_com_air41_model_A41Reservations_idAptOutbound"
+				property="idAptOutbound" z="4awu6ShLTLPbhDHfbpiJEVYmr0c=" />
+			<table:column id="c_com_air41_model_A41Reservations_idFlightSegment"
+				property="idFlightSegment" z="dAwW834Fq7yyIfo11YlVi2VZbh8=" />
+			<table:column
+				id="c_com_air41_model_A41Reservations_idInvoiceEntryDetail"
+				property="idInvoiceEntryDetail" z="Xv4jRZ9FKI31CI1CtTkz/+v0tBg=" />
+			<table:column id="c_com_air41_model_A41Reservations_idAircraftCell"
+				property="idAircraftCell" z="S5g8gQXH40Tl+nMKJxMPDnA1OWo=" />
+			<table:column id="c_com_air41_model_A41Reservations_idSeatType"
+				property="idSeatType" z="OPb6ol8q60+gonnzBaBo8hzS8ZE=" />
+		</table:table>
+	</page:list>
+</div>

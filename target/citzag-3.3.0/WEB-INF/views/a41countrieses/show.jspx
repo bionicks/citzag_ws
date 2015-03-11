@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Countries"
+		object="${a41countries}" path="/a41countrieses"
+		z="XythVqU2sdrO3JGSrMWfUpr+LhE=">
+		<field:display field="idCurrency"
+			id="s_com_air41_model_A41Countries_idCurrency"
+			object="${a41countries}" z="WsyN/elMcIZ4Pi4BHRMbO2mNHsU=" />
+		<field:display field="number"
+			id="s_com_air41_model_A41Countries_number" object="${a41countries}"
+			z="9XJ0u96CrybOi1RDcyIn711aCoU=" />
+		<field:display field="name" id="s_com_air41_model_A41Countries_name"
+			object="${a41countries}" z="xI+xRivq5o0mZT9WsKVhAkiHS8U=" />
+		<field:display field="code" id="s_com_air41_model_A41Countries_code"
+			object="${a41countries}" z="K1Z2JkiHD/XEVvvL7IoCn/1ClhA=" />
+		<field:display field="langShortcut"
+			id="s_com_air41_model_A41Countries_langShortcut"
+			object="${a41countries}" z="B9Z8mYKxuvxVNoZGKfwf1oWLxz8=" />
+	</page:show>
+</div>

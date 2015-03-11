@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:create id="fc_com_air41_model_A41Invoices"
+		modelAttribute="a41Invoices" path="/a41invoiceses"
+		render="${empty dependencies}" z="ZpCpClfnnmvjTqx7/LGE1CjwSbw=">
+		<field:select field="idAgent"
+			id="c_com_air41_model_A41Invoices_idAgent" itemValue="id"
+			items="${a41agentses}" path="/a41agentses"
+			z="8C3E/yX+NNTMAg/Gd0DYbQ5XYKk=" />
+		<field:select field="idCarrier"
+			id="c_com_air41_model_A41Invoices_idCarrier" itemValue="id"
+			items="${a41carrierses}" path="/a41carrierses"
+			z="qmwPYTATg027xgj8HurHS1ZQ2ng=" />
+		<field:select field="idCountry"
+			id="c_com_air41_model_A41Invoices_idCountry" itemValue="id"
+			items="${a41countrieses}" path="/a41countrieses"
+			z="S0DtzAamZusdlz06gAiAeZUEc/8=" />
+		<field:select field="idCustomer"
+			id="c_com_air41_model_A41Invoices_idCustomer" itemValue="id"
+			items="${a41customerses}" path="/a41customerses"
+			z="8QFUykEKlbIU22IuvKbYWr76fq4=" />
+		<field:input field="idParent"
+			id="c_com_air41_model_A41Invoices_idParent"
+			validationMessageCode="field_invalid_integer"
+			z="dT9KnR/yld2TB6w8L6HCy+zwobI=" />
+		<field:input field="bookingcode"
+			id="c_com_air41_model_A41Invoices_bookingcode" required="true"
+			z="VbvSjvQ+qJ3SArVtyLbxyKXystg=" />
+		<field:input field="bookingdate"
+			id="c_com_air41_model_A41Invoices_bookingdate"
+			validationMessageCode="field_invalid_integer"
+			z="dmLWYv3iSJ8p8bcxatz/Q7tpcIA=" />
+		<field:input field="obcode" id="c_com_air41_model_A41Invoices_obcode"
+			z="vf9JWpZSjruBgk6XOt3de0hPIE8=" />
+		<field:input field="type" id="c_com_air41_model_A41Invoices_type"
+			validationMessageCode="field_invalid_integer"
+			z="X9zWrjPcrcaPAHyb7/4B8bu6eV8=" />
+		<field:input field="idTemplate"
+			id="c_com_air41_model_A41Invoices_idTemplate"
+			validationMessageCode="field_invalid_integer"
+			z="ZKuPANPC24NJdEW0WF09KoiMpvs=" />
+		<field:input field="salutation"
+			id="c_com_air41_model_A41Invoices_salutation"
+			z="yRRMFp3iLAEPRZN0Xsgh7kQpz3s=" />
+		<field:input field="firstName"
+			id="c_com_air41_model_A41Invoices_firstName"
+			z="ivbnxfGXieCGU1Nm1O2pMxeTtPo=" />
+		<field:input field="lastName"
+			id="c_com_air41_model_A41Invoices_lastName"
+			z="HK8oh4xf1/yT8+0UwgLwKzvx+h4=" />
+		<field:input field="company"
+			id="c_com_air41_model_A41Invoices_company"
+			z="rLhLrJB4W3EoZbt64cEYie7Spvk=" />
+		<field:input field="street" id="c_com_air41_model_A41Invoices_street"
+			z="iB5N0SQcMepRtHRp3DX+/bml02o=" />
+		<field:input field="postalCode"
+			id="c_com_air41_model_A41Invoices_postalCode"
+			z="G5qDH88ub/PRW58Zgf6c5kE8PBw=" />
+		<field:input field="city" id="c_com_air41_model_A41Invoices_city"
+			z="kG5ARR1oZAxdI+jr7hNcMlVbL44=" />
+		<field:input field="phone" id="c_com_air41_model_A41Invoices_phone"
+			z="0jyw0ImAkjTpO4xyvOb3UOrTZf0=" />
+		<field:input field="mobile" id="c_com_air41_model_A41Invoices_mobile"
+			z="rLY0vdSjitx/kmZNrGjkQd963mM=" />
+		<field:input field="email" id="c_com_air41_model_A41Invoices_email"
+			validationMessageCode="field_invalid_email"
+			z="scVrZOSxJR+aVQuGYCO9xV/Tk3M=" />
+		<field:input field="transactionFee"
+			id="c_com_air41_model_A41Invoices_transactionFee"
+			validationMessageCode="field_invalid_number"
+			z="g7PuJ7OOWBUFfUbeGBFvjz+vwIw=" />
+		<field:input field="vat" id="c_com_air41_model_A41Invoices_vat"
+			validationMessageCode="field_invalid_number"
+			z="bDmpWE+2Hk4H9CqHwg2OTH4NM8Y=" />
+		<field:input field="ccBrand"
+			id="c_com_air41_model_A41Invoices_ccBrand"
+			z="B0nJJin9i7sdw32XN2hcnDAts9M=" />
+		<field:input field="ccNumber"
+			id="c_com_air41_model_A41Invoices_ccNumber"
+			z="I0Dlcsw29/A98cMnYVjWdXwaTn8=" />
+		<field:input field="ccExpiryYear"
+			id="c_com_air41_model_A41Invoices_ccExpiryYear"
+			validationMessageCode="field_invalid_integer"
+			z="N40j5Cu8ODJprmVc9y7/QNRcn8E=" />
+		<field:input field="ccExpiryMonth"
+			id="c_com_air41_model_A41Invoices_ccExpiryMonth"
+			validationMessageCode="field_invalid_integer"
+			z="MjlaBCqvPUu8zM7gMQzmZ29xZhU=" />
+		<field:input field="ccCvc" id="c_com_air41_model_A41Invoices_ccCvc"
+			z="3wkD8YDnGoeTnRGuXdrSLV8pc2Q=" />
+		<field:input field="ccHolder"
+			id="c_com_air41_model_A41Invoices_ccHolder"
+			z="1+iV03a3z1gZUY1fv+S1L/IqW9M=" />
+		<field:input field="bankaccountHolder"
+			id="c_com_air41_model_A41Invoices_bankaccountHolder"
+			z="bEKBHWddHehW/ybgcnbay27+CyY=" />
+		<field:input field="bankaccountNo"
+			id="c_com_air41_model_A41Invoices_bankaccountNo"
+			z="uCl3wKJ7sfCFXRvuomhvr8J8jXY=" />
+		<field:input field="bankaccountBankno"
+			id="c_com_air41_model_A41Invoices_bankaccountBankno"
+			z="jWHHvlTmfS8yzMbeTLoaEXalZsk=" />
+		<field:checkbox field="isOnewayBooking"
+			id="c_com_air41_model_A41Invoices_isOnewayBooking"
+			z="82fVLI/jLxTrYnUpSzvbxBJPfwg=" />
+		<field:input field="agencyCommissionPriceUnit"
+			id="c_com_air41_model_A41Invoices_agencyCommissionPriceUnit"
+			z="xt5d7gAVLcTU3guWCDSXjFS/+7s=" />
+		<field:checkbox field="canceled"
+			id="c_com_air41_model_A41Invoices_canceled"
+			z="egRpjxs+yy+SAQx+KHn29DXEOUw=" />
+		<field:checkbox field="rebooked"
+			id="c_com_air41_model_A41Invoices_rebooked"
+			z="tZeZQOnTPxNuJlk9n8PcrdGcQRo=" />
+		<field:checkbox field="revoked"
+			id="c_com_air41_model_A41Invoices_revoked"
+			z="T9g4NF2IfJMRkrGdJeHkPFPq1Gk=" />
+		<field:input field="comments"
+			id="c_com_air41_model_A41Invoices_comments"
+			z="cgkZ4Rjx9QepoDikxorNtQjJwiw=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41Invoices_updated"
+			validationMessageCode="field_invalid_integer"
+			z="+ElAjmAoSVwcz94FnPTnlP9mh4A=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41Invoices_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="Jgdd0n8TSW9Epb+KH3Tt+6q24MY=" />
+		<field:checkbox field="namechanged"
+			id="c_com_air41_model_A41Invoices_namechanged"
+			z="EoOMc1LYWy3xvPpkXVRoYwpCijY=" />
+		<field:input field="cancellationPercent"
+			id="c_com_air41_model_A41Invoices_cancellationPercent"
+			validationMessageCode="field_invalid_integer"
+			z="F9ouaqMRBljxpcOEFFSySNW8l4Q=" />
+	</form:create>
+	<form:dependency dependencies="${dependencies}"
+		id="d_com_air41_model_A41Invoices" render="${not empty dependencies}"
+		z="28bWXZojDOSr66DA/j7wdn5Ux7A=" />
+</div>

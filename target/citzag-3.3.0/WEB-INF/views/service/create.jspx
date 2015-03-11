@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:create id="fc_com_air41_model_A41Services"
+		modelAttribute="a41Services" path="/service"
+		render="${empty dependencies}" z="JS37gzM8d1rLOeMSDaJasGHKIIA=">
+		<field:select field="idCategory"
+			id="c_com_air41_model_A41Services_idCategory" itemValue="id"
+			items="${a41servicescategorieses}" path="/a41servicescategorieses"
+			z="lLyN541e7/fY+LDqYD5uJGxjvbc=" />
+		<field:input field="idCarrier"
+			id="c_com_air41_model_A41Services_idCarrier"
+			validationMessageCode="field_invalid_integer"
+			z="tgAAgiH10cu3YMmgnrEmwhbJ1HY=" />
+		<field:input field="iataCode"
+			id="c_com_air41_model_A41Services_iataCode" required="true"
+			z="q+QmcKEqJw3Y4Ja4iWJPbCd4DsA=" />
+		<field:input field="constantCode"
+			id="c_com_air41_model_A41Services_constantCode" required="true"
+			z="QFhYuYq5/vgmZ6eXtOICqmHs3f8=" />
+		<field:input field="aptFromIataCode"
+			id="c_com_air41_model_A41Services_aptFromIataCode" required="true"
+			z="rf5IsW3Vuqvtm0jecqSVAGZtW8c=" />
+		<field:input field="aptToIataCode"
+			id="c_com_air41_model_A41Services_aptToIataCode" required="true"
+			z="c1pJuC4NhgXOpXS0XdZVQhqFWTU=" />
+		<field:input field="validFromDate"
+			id="c_com_air41_model_A41Services_validFromDate"
+			validationMessageCode="field_invalid_integer"
+			z="KcNEM/SfGA0FLzAJuOWg85R4rSE=" />
+		<field:input field="validToDate"
+			id="c_com_air41_model_A41Services_validToDate"
+			validationMessageCode="field_invalid_integer"
+			z="WBHaJJQsxSeabq9pLnDoXLpSdK0=" />
+		<field:checkbox field="contingentUnlimited"
+			id="c_com_air41_model_A41Services_contingentUnlimited"
+			z="t+uDJuPtbi8526/24NAIdOEFXb4=" />
+		<field:input field="contingentTotal"
+			id="c_com_air41_model_A41Services_contingentTotal" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="T5UvUFGxc/l5KuRoSstZmFOjdCM=" />
+		<field:input field="contingentPpax"
+			id="c_com_air41_model_A41Services_contingentPpax" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="mGurskRLpqLvIA+Q/qcAKs3OdTU=" />
+		<field:input field="price" id="c_com_air41_model_A41Services_price"
+			validationMessageCode="field_invalid_number"
+			z="fZeXaNlXOwIzY34yOLAbftzk518=" />
+		<field:input field="priceCheckin"
+			id="c_com_air41_model_A41Services_priceCheckin"
+			validationMessageCode="field_invalid_number"
+			z="nf0vPA1rR7sgE0BInFHTp/ia5LQ=" />
+		<field:input field="priceUnit"
+			id="c_com_air41_model_A41Services_priceUnit"
+			z="DMsYA4uQT0O+6QEp77N8LK4YXls=" />
+		<field:input field="salesUnit"
+			id="c_com_air41_model_A41Services_salesUnit"
+			z="AkYDUnlE/Ba4i3J1RsDMwaEG8zI=" />
+		<field:checkbox field="publish"
+			id="c_com_air41_model_A41Services_publish"
+			z="fXMUm2KZYFp0iw7FZPRkEgs10p8=" />
+		<field:checkbox field="confirm"
+			id="c_com_air41_model_A41Services_confirm"
+			z="koVDQDoiPWusooaRK203o5zFu9g=" />
+		<field:input field="position"
+			id="c_com_air41_model_A41Services_position" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="SCVc9kvifMgOxlpNx1vJ1d1ieIo=" />
+		<field:checkbox field="isFreeForC"
+			id="c_com_air41_model_A41Services_isFreeForC"
+			z="hChezFwqUVtd2LmJuEdchuFy1DA=" />
+		<field:checkbox field="isFreeForF"
+			id="c_com_air41_model_A41Services_isFreeForF"
+			z="MT6zx36cAKO5fEd+DKjZu59e5Mk=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41Services_updated"
+			validationMessageCode="field_invalid_integer"
+			z="mAnD+nixNOk/6NjPJFBgSByCR20=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41Services_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="QrJ+H7RriOJXo9vgkefPnCrKPfk=" />
+		<field:checkbox field="acceptComment"
+			id="c_com_air41_model_A41Services_acceptComment"
+			z="bUmHYpjMHaefwcIxyrAnL9oeALw=" />
+		<field:checkbox field="adultAllowed"
+			id="c_com_air41_model_A41Services_adultAllowed"
+			z="te4nw/sCLaxf7g9tcit5AJN8pWM=" />
+		<field:checkbox field="childAllowed"
+			id="c_com_air41_model_A41Services_childAllowed"
+			z="SCAZONJE5lXziWK7SoCOmL1tEkk=" />
+		<field:checkbox field="infantAllowed"
+			id="c_com_air41_model_A41Services_infantAllowed"
+			z="gKWo6up4U/mnymlHjr4/AURSLCA=" />
+		<field:checkbox field="pricedPerBooking"
+			id="c_com_air41_model_A41Services_pricedPerBooking"
+			z="ka8LnZrP2zCh0YbJ52tBQzU1b4Y=" />
+		<field:checkbox field="sharedContingent"
+			id="c_com_air41_model_A41Services_sharedContingent"
+			z="GhmmAHpNM8WM8eg8RXOOB+NBwBA=" />
+		<field:input field="contingentMin"
+			id="c_com_air41_model_A41Services_contingentMin" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="wcvgAyvpjLxRCAjgWLhChDjl0b4=" />
+		<field:checkbox field="pricedPerPax"
+			id="c_com_air41_model_A41Services_pricedPerPax"
+			z="OvDW78smO0Dbht1V4oWv/5VDlyA=" />
+		<field:checkbox field="publishBlank"
+			id="c_com_air41_model_A41Services_publishBlank"
+			z="TQZrnQsvisx/+4p+s8isIK+RVq0=" />
+		<field:checkbox field="rebookingTransfer"
+			id="c_com_air41_model_A41Services_rebookingTransfer"
+			z="X7xzgocSXu8kgwyObpIwkKDgOJc=" />
+		<field:select field="tktClass"
+			id="c_com_air41_model_A41Services_tktClass" itemValue="id"
+			items="${a41ticketclasses}" path="/a41ticketclasses"
+			z="o4kRNLzeznTOT2+scSpgIiDI9ZM=" />
+	</form:create>
+	<form:dependency dependencies="${dependencies}"
+		id="d_com_air41_model_A41Services" render="${not empty dependencies}"
+		z="Mi5fFnpZDkbaBbX2thBuilr4cBk=" />
+</div>

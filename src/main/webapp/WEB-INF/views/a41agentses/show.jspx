@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Agents" object="${a41agents}"
+		path="/a41agentses" z="3UGhpBybwlhav0lXlZrFo75lexo=">
+		<field:display field="idCustomer"
+			id="s_com_air41_model_A41Agents_idCustomer" object="${a41agents}"
+			z="r2ELjJugVSThk09WwCt5K82cfyk=" />
+		<field:display field="username"
+			id="s_com_air41_model_A41Agents_username" object="${a41agents}"
+			z="cYRE4avUKy/0s1xhGOX4PhJtauw=" />
+		<field:display field="password"
+			id="s_com_air41_model_A41Agents_password" object="${a41agents}"
+			z="GbVlz8WGKKzUpF9TKy+qSPIRZSM=" />
+		<field:display field="firstname"
+			id="s_com_air41_model_A41Agents_firstname" object="${a41agents}"
+			z="VW1c74CTOxg49N0JXkQMIqNGCM4=" />
+		<field:display field="lastname"
+			id="s_com_air41_model_A41Agents_lastname" object="${a41agents}"
+			z="SvNx597TZFhG128skRN7aasUgWk=" />
+		<field:display field="email" id="s_com_air41_model_A41Agents_email"
+			object="${a41agents}" z="c3XLjpbOTyALY8tfKL4s5hbgUXI=" />
+		<field:display field="lastlogin"
+			id="s_com_air41_model_A41Agents_lastlogin" object="${a41agents}"
+			z="e1mhnwg6+aGmT3gjH43d8kh3Lj8=" />
+		<field:display field="updated"
+			id="s_com_air41_model_A41Agents_updated" object="${a41agents}"
+			z="5jwr9bKN2aU+jw6TmdGcLhJw/H4=" />
+		<field:display field="deleted"
+			id="s_com_air41_model_A41Agents_deleted" object="${a41agents}"
+			z="ifZldzAOfkFMLJub7WGmolag0Ac=" />
+	</page:show>
+</div>

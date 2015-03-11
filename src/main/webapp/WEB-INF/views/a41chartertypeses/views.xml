@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="a41chartertypeses/list">
+		<put-attribute name="body"
+			value="/WEB-INF/views/a41chartertypeses/list.jspx" />
+	</definition>
+	<definition extends="default" name="a41chartertypeses/show">
+		<put-attribute name="body"
+			value="/WEB-INF/views/a41chartertypeses/show.jspx" />
+	</definition>
+	<definition extends="default" name="a41chartertypeses/create">
+		<put-attribute name="body"
+			value="/WEB-INF/views/a41chartertypeses/create.jspx" />
+	</definition>
+	<definition extends="default" name="a41chartertypeses/update">
+		<put-attribute name="body"
+			value="/WEB-INF/views/a41chartertypeses/update.jspx" />
+	</definition>
+</tiles-definitions>

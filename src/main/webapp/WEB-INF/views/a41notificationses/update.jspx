@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:update id="fu_com_air41_model_A41Notifications"
+		modelAttribute="a41Notifications" path="/a41notificationses"
+		versionField="none" z="oBTgG7NMu5bDyE/h6LbpSba5p24=">
+		<field:input field="idNotificationType"
+			id="c_com_air41_model_A41Notifications_idNotificationType"
+			validationMessageCode="field_invalid_integer"
+			z="sKnXMsq2zgaKMLb2+jtqeDdfos0=" />
+		<field:input field="idFlightSegment"
+			id="c_com_air41_model_A41Notifications_idFlightSegment"
+			validationMessageCode="field_invalid_integer"
+			z="SLJ8qmbrjwjkLRXD8O5Wi33gUJA=" />
+		<field:input field="idInvoice"
+			id="c_com_air41_model_A41Notifications_idInvoice"
+			validationMessageCode="field_invalid_integer"
+			z="rWj1azFVVENGL3vBA1KpUDd+TVg=" />
+		<field:checkbox field="status"
+			id="c_com_air41_model_A41Notifications_status"
+			z="kotMDO07YGhIzDm4Zqekpy+5GmA=" />
+		<field:checkbox field="idPriority"
+			id="c_com_air41_model_A41Notifications_idPriority"
+			z="6nDEl2moNY2vEvPSLdNLWdgp49o=" />
+		<field:input field="detailText"
+			id="c_com_air41_model_A41Notifications_detailText"
+			z="ZOK97sfagJaVU+25eChoiBizSoU=" />
+		<field:checkbox field="dispatched"
+			id="c_com_air41_model_A41Notifications_dispatched"
+			z="chHRoZkC+BozQ3Mx1Gd56K8Z2MU=" />
+	</form:update>
+</div>

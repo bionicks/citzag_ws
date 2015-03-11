@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41Services" items="${a41serviceses}"
+		z="Ajf0ATmPU9qdAqHXNknFtLEXq2E=">
+		<table:table data="${a41serviceses}"
+			id="l_com_air41_model_A41Services" path="/service"
+			z="WJlpw0e1LiAl9olN0BoE5hWX9V0=">
+			<table:column id="c_com_air41_model_A41Services_idCategory"
+				property="idCategory" z="zeeAbwd+TUT6Fu9+vpn28z5CY5E=" />
+			<table:column id="c_com_air41_model_A41Services_idCarrier"
+				property="idCarrier" z="y9OVETw7gWn23P8JnR4GFedwAZk=" />
+			<table:column id="c_com_air41_model_A41Services_iataCode"
+				property="iataCode" z="6vVpFmeg4yC4H/2Y7wmZJdwiQYM=" />
+			<table:column id="c_com_air41_model_A41Services_constantCode"
+				property="constantCode" z="HHFVTnejDOhK6twAgtkFVEtAAQs=" />
+			<table:column id="c_com_air41_model_A41Services_aptFromIataCode"
+				property="aptFromIataCode" z="1kzjBRaPKH42XVxXMntq2QFLX90=" />
+			<table:column id="c_com_air41_model_A41Services_tktClass"
+				property="tktClass" z="J3NxuthHCyGLCuzkE2RdOE8do1A=" />
+		</table:table>
+	</page:list>
+</div>

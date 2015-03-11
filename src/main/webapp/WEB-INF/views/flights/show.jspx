@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41FlightSegments"
+		object="${a41flightsegments}" path="/flights"
+		z="UVuc+FlNWOSP8/w8Sh1+MMhhUrw=">
+		<field:display field="idAptFrom"
+			id="s_com_air41_model_A41FlightSegments_idAptFrom"
+			object="${a41flightsegments}" z="YPGqB/LvG5qm7oCDECEjjR5edeY=" />
+		<field:display field="idAptTo"
+			id="s_com_air41_model_A41FlightSegments_idAptTo"
+			object="${a41flightsegments}" z="9ZSrSKBBFhM1R2aOj1my/a1E5HE=" />
+		<field:display field="idCarrier"
+			id="s_com_air41_model_A41FlightSegments_idCarrier"
+			object="${a41flightsegments}" z="nQ2dEsIlRVMWen8mtbj6FMY/MKg=" />
+		<field:display field="idLayout"
+			id="s_com_air41_model_A41FlightSegments_idLayout"
+			object="${a41flightsegments}" z="ggn5tP/GIVNMLODp+iQKOJ+4aIw=" />
+		<field:display field="idAircraftConfig"
+			id="s_com_air41_model_A41FlightSegments_idAircraftConfig"
+			object="${a41flightsegments}" z="mqC7ThdjapclHHbDzh2gTkx+O4s=" />
+		<field:display field="idOperator"
+			id="s_com_air41_model_A41FlightSegments_idOperator"
+			object="${a41flightsegments}" z="hzndk/VzxC/9s5MTveasieps3nc=" />
+		<field:display field="operatorCode"
+			id="s_com_air41_model_A41FlightSegments_operatorCode"
+			object="${a41flightsegments}" z="1pCZuB/LQWN6liDSE1mHItMWLec=" />
+		<field:display field="name"
+			id="s_com_air41_model_A41FlightSegments_name"
+			object="${a41flightsegments}" z="VSOgShMwnJKz/nzmQwOFZ8dSnDI=" />
+		<field:display field="idStartSegment"
+			id="s_com_air41_model_A41FlightSegments_idStartSegment"
+			object="${a41flightsegments}" z="V2v2aDsUOaoVFbvBylBgyW8kJFA=" />
+		<field:display field="flightType"
+			id="s_com_air41_model_A41FlightSegments_flightType"
+			object="${a41flightsegments}" z="uIT2n80703w06e8kex7DBEMat/g=" />
+		<field:display field="flightTypeVirtual"
+			id="s_com_air41_model_A41FlightSegments_flightTypeVirtual"
+			object="${a41flightsegments}" z="OyjMke0kxdY+AYd8oPh0Po5IGw4=" />
+		<field:display field="flightNo"
+			id="s_com_air41_model_A41FlightSegments_flightNo"
+			object="${a41flightsegments}" z="y490qeAzirGOmN1NYrRrvpZVB40=" />
+		<field:display field="flightNoCode"
+			id="s_com_air41_model_A41FlightSegments_flightNoCode"
+			object="${a41flightsegments}" z="DsjFWcBOiR3qHT/rSuLamLansd4=" />
+		<field:display field="flightNoDigits"
+			id="s_com_air41_model_A41FlightSegments_flightNoDigits"
+			object="${a41flightsegments}" z="agmeY33InK0qZnIiviPGRRFCDJE=" />
+		<field:display field="flightDate"
+			id="s_com_air41_model_A41FlightSegments_flightDate"
+			object="${a41flightsegments}" z="EIRtDPWsgya7Z5tEjcM0bp3slHI=" />
+		<field:display field="aptFromDepTime"
+			id="s_com_air41_model_A41FlightSegments_aptFromDepTime"
+			object="${a41flightsegments}" z="HFdMrEcMXZm6Dcx1GihI52tp3Ck=" />
+		<field:display field="aptToArrTime"
+			id="s_com_air41_model_A41FlightSegments_aptToArrTime"
+			object="${a41flightsegments}" z="CqcWbdjb8N5/L5Lib/u21zaPES4=" />
+		<field:display field="passportRequired"
+			id="s_com_air41_model_A41FlightSegments_passportRequired"
+			object="${a41flightsegments}" z="WG4oSPpP6RaMCauZk/xWNWM7Yi4=" />
+		<field:display field="flightReservation"
+			id="s_com_air41_model_A41FlightSegments_flightReservation"
+			object="${a41flightsegments}" z="FAbU9A2z/rjne+Exn/k/5mn4qcA=" />
+		<field:display field="seatReservation"
+			id="s_com_air41_model_A41FlightSegments_seatReservation"
+			object="${a41flightsegments}" z="qN+EfM5ARYd+DDJHs4BaElRc0o0=" />
+		<field:display field="trainReservation"
+			id="s_com_air41_model_A41FlightSegments_trainReservation"
+			object="${a41flightsegments}" z="YjL5AkK1VBWB/OEvnWogXfQ/ILI=" />
+		<field:display field="insuranceReservation"
+			id="s_com_air41_model_A41FlightSegments_insuranceReservation"
+			object="${a41flightsegments}" z="dUq1Yu1c5F8lPBIdv+z1KJfz6Z8=" />
+		<field:display field="standardServiceReservation"
+			id="s_com_air41_model_A41FlightSegments_standardServiceReservation"
+			object="${a41flightsegments}" z="yPgBaxgwugSEGGR2dYu5psb3Q/A=" />
+		<field:display field="medicalServiceReservation"
+			id="s_com_air41_model_A41FlightSegments_medicalServiceReservation"
+			object="${a41flightsegments}" z="F02Cle3XFazTAL9msVJkle+kAMM=" />
+		<field:display field="mealServiceReservation"
+			id="s_com_air41_model_A41FlightSegments_mealServiceReservation"
+			object="${a41flightsegments}" z="ZzJeIS/B2vwVR99yrctN0UUUDiY=" />
+		<field:display field="baggageServiceReservation"
+			id="s_com_air41_model_A41FlightSegments_baggageServiceReservation"
+			object="${a41flightsegments}" z="wEkqkbLJWedU8IGHLn2SzQV/riU=" />
+		<field:display field="csvSource"
+			id="s_com_air41_model_A41FlightSegments_csvSource"
+			object="${a41flightsegments}" z="ovKWYaoyL9eLKFNAZvgJBYy6in0=" />
+		<field:display field="updated"
+			id="s_com_air41_model_A41FlightSegments_updated"
+			object="${a41flightsegments}" z="c1LiI1DGMPrdbqCMMtlMwrbk+gc=" />
+		<field:display field="deleted"
+			id="s_com_air41_model_A41FlightSegments_deleted"
+			object="${a41flightsegments}" z="mdEBwYF8iLjEw8nT8V2iA0cEmOQ=" />
+		<field:display field="codeshare"
+			id="s_com_air41_model_A41FlightSegments_codeshare"
+			object="${a41flightsegments}" z="fy/ng3lFd43bt3iD5kVsZGhGhTk=" />
+		<field:display field="ls" id="s_com_air41_model_A41FlightSegments_ls"
+			object="${a41flightsegments}" z="IEib/Oysl7tFB+ZkbSkU4jG3rXs=" />
+		<field:display field="created"
+			id="s_com_air41_model_A41FlightSegments_created"
+			object="${a41flightsegments}" z="6oDrjAtR5+aNdTKN4iY3vjDxaZY=" />
+	</page:show>
+</div>

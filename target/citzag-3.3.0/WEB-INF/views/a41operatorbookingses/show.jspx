@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41OperatorBookings"
+		object="${a41operatorbookings}" path="/a41operatorbookingses"
+		z="6gl+sW7meIhlmdfTzwHAVgCor38=">
+		<field:display field="idFlightSegment"
+			id="s_com_air41_model_A41OperatorBookings_idFlightSegment"
+			object="${a41operatorbookings}" z="vRaDCVFX4c9u89ntN0VTAa6zKEs=" />
+		<field:display field="idOperator"
+			id="s_com_air41_model_A41OperatorBookings_idOperator"
+			object="${a41operatorbookings}" z="UPeB56qZbr5aDTiPXZm54o/oHMY=" />
+		<field:display field="bookingCode"
+			id="s_com_air41_model_A41OperatorBookings_bookingCode"
+			object="${a41operatorbookings}" z="gv0zbgFRCky/drGl1/YAmASNkDE=" />
+		<field:display field="passengerFirstname"
+			id="s_com_air41_model_A41OperatorBookings_passengerFirstname"
+			object="${a41operatorbookings}" z="IohSt5fSAS9vjGYFXj8Bnq+8lnU=" />
+		<field:display field="passengerLastname"
+			id="s_com_air41_model_A41OperatorBookings_passengerLastname"
+			object="${a41operatorbookings}" z="a38ziXreuqQ/hCvKm6roSn2zkcQ=" />
+		<field:display field="passengerBirthdate"
+			id="s_com_air41_model_A41OperatorBookings_passengerBirthdate"
+			object="${a41operatorbookings}" z="ZTad5io3jUPgCJlyaG/FIhM6/WQ=" />
+		<field:display field="passengerSalutation"
+			id="s_com_air41_model_A41OperatorBookings_passengerSalutation"
+			object="${a41operatorbookings}" z="Wdsxlyl2dA44AQV5CmR0cqMSR0g=" />
+		<field:display field="ticketClassCode"
+			id="s_com_air41_model_A41OperatorBookings_ticketClassCode"
+			object="${a41operatorbookings}" z="XCFYkk6o4RzCPVfxXGhlEYZlz/0=" />
+		<field:display field="isInbound"
+			id="s_com_air41_model_A41OperatorBookings_isInbound"
+			object="${a41operatorbookings}" z="KDR2fyhTsktJ6C5KJ/0zPwhm208=" />
+		<field:display field="withInfant"
+			id="s_com_air41_model_A41OperatorBookings_withInfant"
+			object="${a41operatorbookings}" z="m2/+DDQ0Q6kHhkDOP7BtZyJnLbE=" />
+		<field:display field="created"
+			id="s_com_air41_model_A41OperatorBookings_created"
+			object="${a41operatorbookings}" z="icyrA8DP1CL5fx5mvBGKK36rAlg=" />
+		<field:display field="updated"
+			id="s_com_air41_model_A41OperatorBookings_updated"
+			object="${a41operatorbookings}" z="mwPhfdwS83xZGtorRYXqSs0TRDU=" />
+		<field:display field="deleted"
+			id="s_com_air41_model_A41OperatorBookings_deleted"
+			object="${a41operatorbookings}" z="CGHvdKJCE0uFZBn7JcjAqblMe+w=" />
+	</page:show>
+</div>

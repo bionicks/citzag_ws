@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41Notifications"
+		items="${a41notificationses}" z="1V+gkgEGVWJThcJjjIBiEMlwMYo=">
+		<table:table data="${a41notificationses}"
+			id="l_com_air41_model_A41Notifications" path="/a41notificationses"
+			z="sGs4oxcd65P5kCC6/zJxSYWHrT8=">
+			<table:column
+				id="c_com_air41_model_A41Notifications_idNotificationType"
+				property="idNotificationType" z="+IqXeH5BmFlnPNlEA5TXnRmZTqw=" />
+			<table:column id="c_com_air41_model_A41Notifications_idFlightSegment"
+				property="idFlightSegment" z="QPHOvOFZJ6D92Od0wkwIuxAZWbQ=" />
+			<table:column id="c_com_air41_model_A41Notifications_idInvoice"
+				property="idInvoice" z="6epjRXu7GS6NwtSTWq2iUG1y+Pg=" />
+			<table:column id="c_com_air41_model_A41Notifications_status"
+				property="status" z="4dA8dffYrfxzZrRNkwpw3vV7VaU=" />
+			<table:column id="c_com_air41_model_A41Notifications_idPriority"
+				property="idPriority" z="gMr0LMSaf4BPEH99cgkaUI2gMF8=" />
+			<table:column id="c_com_air41_model_A41Notifications_detailText"
+				property="detailText" z="FAnXj7ZivkWfk6YePCsOZMrNuDk=" />
+		</table:table>
+	</page:list>
+</div>

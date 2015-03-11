@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:update id="fu_com_air41_model_A41OperatorBookings"
+		modelAttribute="a41OperatorBookings" path="/a41operatorbookingses"
+		versionField="none" z="DHJcfJk4cY9ge1UiiIXxNx+PSNs=">
+		<field:input field="idFlightSegment"
+			id="c_com_air41_model_A41OperatorBookings_idFlightSegment"
+			required="true" validationMessageCode="field_invalid_integer"
+			z="fv9rdd2zsD3PnJDbmXqW8q69H0I=" />
+		<field:input field="idOperator"
+			id="c_com_air41_model_A41OperatorBookings_idOperator"
+			validationMessageCode="field_invalid_integer"
+			z="E12wK9x/XWDWPUEjOWQ19HjI4ig=" />
+		<field:input field="bookingCode"
+			id="c_com_air41_model_A41OperatorBookings_bookingCode"
+			required="true" z="fwsIovcEy+9LDoVYxh0ngY0r9sA=" />
+		<field:input field="passengerFirstname"
+			id="c_com_air41_model_A41OperatorBookings_passengerFirstname"
+			z="Ujl3IKcMIQ4+He1XqrONegM+ttw=" />
+		<field:input field="passengerLastname"
+			id="c_com_air41_model_A41OperatorBookings_passengerLastname"
+			z="etM5BmTmi/YzPk1DGovShThvqlo=" />
+		<field:input field="passengerBirthdate"
+			id="c_com_air41_model_A41OperatorBookings_passengerBirthdate"
+			validationMessageCode="field_invalid_integer"
+			z="XDNL/S7q1joSqlOI/HCKjYmUQDk=" />
+		<field:input field="passengerSalutation"
+			id="c_com_air41_model_A41OperatorBookings_passengerSalutation"
+			z="SvmnIzj3l0SYD4URK8pwo6m7ZfQ=" />
+		<field:input field="ticketClassCode"
+			id="c_com_air41_model_A41OperatorBookings_ticketClassCode"
+			required="true" z="Rs4+ZXhHnicKULGTqfWaF+/QgS8=" />
+		<field:checkbox field="isInbound"
+			id="c_com_air41_model_A41OperatorBookings_isInbound"
+			z="IzyAVI5+HfKaGVXySLXqSU1tF5Y=" />
+		<field:checkbox field="withInfant"
+			id="c_com_air41_model_A41OperatorBookings_withInfant"
+			z="gMLqht8DzxrQwFUCqf4xbTHF3gw=" />
+		<field:input field="created"
+			id="c_com_air41_model_A41OperatorBookings_created"
+			validationMessageCode="field_invalid_integer"
+			z="ZBQ6lh8Le0d3a9euvTjJACUsfBY=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41OperatorBookings_updated"
+			validationMessageCode="field_invalid_integer"
+			z="s1UzJSidxbo2IuWk+l0ULJD73PU=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41OperatorBookings_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="7RB0ODaEQqyojrLLwYCryqvpQo0=" />
+	</form:update>
+</div>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:create id="fc_com_air41_model_A41Customers"
+		modelAttribute="a41Customers" path="/a41customerses"
+		render="${empty dependencies}" z="ubzh1t03SJOpVKuJW2g7KkDLa/4=">
+		<field:simple field="a41Agentss"
+			id="c_com_air41_model_A41Customers_a41Agentss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Agents" z="qc2LkD1E7fGT6mt1gdevxGWErzM=" />
+		<field:simple field="a41Carrierss"
+			id="c_com_air41_model_A41Customers_a41Carrierss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Carriers" z="ZoEbXqkQdb/BDwamZ5qLAlUEPfA=" />
+		<field:simple field="a41Customerss"
+			id="c_com_air41_model_A41Customers_a41Customerss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Customers" z="uWuihVNyJ2MRjyZuvNSzAasXjWI=" />
+		<field:simple field="a41GroupSeatings"
+			id="c_com_air41_model_A41Customers_a41GroupSeatings"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Group Seating"
+			z="pw/e2MnbG8PbbnQIFXiN0S6eFAk=" />
+		<field:simple field="a41Invoiceses"
+			id="c_com_air41_model_A41Customers_a41Invoiceses"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Invoices" z="pt0I3C3Oq/xlcci8fe/AELtvt0w=" />
+		<field:select field="idMasterAgency"
+			id="c_com_air41_model_A41Customers_idMasterAgency" itemValue="id"
+			items="${a41customerses}" path="/a41customerses"
+			z="AywsKKa5T95Azu8Y2S7Z7Mw/+N0=" />
+		<field:select field="idCarrier"
+			id="c_com_air41_model_A41Customers_idCarrier" itemValue="id"
+			items="${a41carrierses}" path="/a41carrierses"
+			z="z823OMmEL+xv4E8eBfgg0RqG7sk=" />
+		<field:select field="idCountry"
+			id="c_com_air41_model_A41Customers_idCountry" itemValue="id"
+			items="${a41countrieses}" path="/a41countrieses"
+			z="hGPGNy8c8k6TEDedixqm0RTi1Gc=" />
+		<field:select field="idSecondaryCurrency"
+			id="c_com_air41_model_A41Customers_idSecondaryCurrency"
+			itemValue="id" items="${a41currencieses}" path="/a41currencieses"
+			z="x/rwBIlq+Ryge4YKLsPt+uas34Q=" />
+		<field:checkbox field="type" id="c_com_air41_model_A41Customers_type"
+			z="5nX7gfdt/95ZgAb+C2KK+LBCQrE=" />
+		<field:input field="firstName"
+			id="c_com_air41_model_A41Customers_firstName" required="true"
+			z="4LtEdghNQi4vLbCaXYFGfyMm20E=" />
+		<field:input field="lastName"
+			id="c_com_air41_model_A41Customers_lastName" required="true"
+			z="/Ueakt89SXKwLvUJ0PkvBnAqaXU=" />
+		<field:input field="salutation"
+			id="c_com_air41_model_A41Customers_salutation"
+			z="+Qy3ScwnMgz//kSyUhQvibfRLD0=" />
+		<field:input field="companyName"
+			id="c_com_air41_model_A41Customers_companyName" required="true"
+			z="GZ/nj9sETnUusAC51qlmeoRyWvY=" />
+		<field:input field="address"
+			id="c_com_air41_model_A41Customers_address" required="true"
+			z="M5hkxqsIRZakU3kH2D+FsVyChu8=" />
+		<field:input field="location"
+			id="c_com_air41_model_A41Customers_location" required="true"
+			z="RUAIkAQU6N2O5zFsVq/zxcrAv/A=" />
+		<field:input field="postalCode"
+			id="c_com_air41_model_A41Customers_postalCode" required="true"
+			z="jieJ6ztzy2X0vGEeMOVbMSImPvs=" />
+		<field:input field="city" id="c_com_air41_model_A41Customers_city"
+			required="true" z="NhJXoDUqdRoSBUC0jL4n92qn+Zw=" />
+		<field:input field="phone" id="c_com_air41_model_A41Customers_phone"
+			required="true" z="zDEfAB7G22VdkyahxChblCX5aYo=" />
+		<field:input field="fax" id="c_com_air41_model_A41Customers_fax"
+			z="jzCzMCYQhLKAeKSONAOwz43UT48=" />
+		<field:input field="email" id="c_com_air41_model_A41Customers_email"
+			required="true" validationMessageCode="field_invalid_email"
+			z="ScWiXcIhEmffwNZi9bKRickmNoo=" />
+		<field:input field="ccOwner"
+			id="c_com_air41_model_A41Customers_ccOwner"
+			z="47z/NvlMK+4/wQoAB77e7V8cczc=" />
+		<field:input field="ccAccountNo"
+			id="c_com_air41_model_A41Customers_ccAccountNo"
+			z="kiYlDSQlNIfKI4fvac0H2X4uLQ0=" />
+		<field:input field="ccCvc" id="c_com_air41_model_A41Customers_ccCvc"
+			z="ZURTfVoPQT1nEVytNNNZuZ98Hwk=" />
+		<field:input field="ccExpMonth"
+			id="c_com_air41_model_A41Customers_ccExpMonth"
+			validationMessageCode="field_invalid_integer"
+			z="GL4QmZLpuT2TE5DWRIOCaNM+Kqs=" />
+		<field:input field="ccExpYear"
+			id="c_com_air41_model_A41Customers_ccExpYear"
+			validationMessageCode="field_invalid_integer"
+			z="Bsbn4XlH/xjVjqIiqNQH1YFZNtI=" />
+		<field:input field="bankAccountOwner"
+			id="c_com_air41_model_A41Customers_bankAccountOwner"
+			z="3r7l/rJ+HccjHNXn0CMIgIyd7a4=" />
+		<field:input field="bankAccountNo"
+			id="c_com_air41_model_A41Customers_bankAccountNo"
+			z="8kTTac9u3fuAHqUb4pV66GjExGs=" />
+		<field:input field="bankCode"
+			id="c_com_air41_model_A41Customers_bankCode"
+			z="K190OeYPwcP0TUJItNVuq5exGvU=" />
+		<field:input field="bankName"
+			id="c_com_air41_model_A41Customers_bankName"
+			z="cY7iyw+bOmnbKjkdBPu+Rps/5dU=" />
+		<field:checkbox field="agencyIsMaster"
+			id="c_com_air41_model_A41Customers_agencyIsMaster"
+			z="xFx9IEE+gCWOYxyIAv9cKL7z58U=" />
+		<field:input field="agencyContractNo"
+			id="c_com_air41_model_A41Customers_agencyContractNo"
+			z="/SbxBjiR2952P2gpdwMODLDwmVo=" />
+		<field:input field="agencyCode"
+			id="c_com_air41_model_A41Customers_agencyCode"
+			z="z+5D9HV47PIyZM24px9CE6a0oBE=" />
+		<field:input field="agencyContractCommission"
+			id="c_com_air41_model_A41Customers_agencyContractCommission"
+			required="true" validationMessageCode="field_invalid_number"
+			z="J3Nbt4WK+WLtF8KEhj0vEsDR9TI=" />
+		<field:input field="agencyContractCommissionPriceUnit"
+			id="c_com_air41_model_A41Customers_agencyContractCommissionPriceUnit"
+			z="S6pwvq8Qm947y25O/WK0RCP7Bsk=" />
+		<field:input field="agencyRebookingCommission"
+			id="c_com_air41_model_A41Customers_agencyRebookingCommission"
+			required="true" validationMessageCode="field_invalid_number"
+			z="zFhh+s4gTpmbBgBr1CoRVHKnfMY=" />
+		<field:input field="agencyRebookingCommissionPriceUnit"
+			id="c_com_air41_model_A41Customers_agencyRebookingCommissionPriceUnit"
+			z="H1pnoadnPI3cFDsnG+d/xDZF9D4=" />
+		<field:input field="cashPaymentLimit"
+			id="c_com_air41_model_A41Customers_cashPaymentLimit"
+			validationMessageCode="field_invalid_number"
+			z="lslOttlNR2xKAy6sckqJtqiWbwI=" />
+		<field:checkbox field="agencyPaysBrutto"
+			id="c_com_air41_model_A41Customers_agencyPaysBrutto"
+			z="RUHEokscHf2P1sYdIVbYyhGtIn0=" />
+		<field:input field="remarks"
+			id="c_com_air41_model_A41Customers_remarks"
+			z="prDpji1M60Kzk4JR3ZijAzztbO0=" />
+		<field:input field="website"
+			id="c_com_air41_model_A41Customers_website"
+			z="tAsdAgFJjfvKX0v9W9G1nZETzT8=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41Customers_updated"
+			validationMessageCode="field_invalid_integer"
+			z="D6SHpxX4YiKITkujD0j0uaxDvVs=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41Customers_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="Gsu/BfNsPQxSQ6PrpoJPFoIQjNA=" />
+		<field:input field="agencyNamechangeCommission"
+			id="c_com_air41_model_A41Customers_agencyNamechangeCommission"
+			validationMessageCode="field_invalid_number"
+			z="y8GOZszoduIK2tExzPGJG3HqXAY=" />
+		<field:input field="agencyNamechangeCommissionPriceUnit"
+			id="c_com_air41_model_A41Customers_agencyNamechangeCommissionPriceUnit"
+			z="1kXwJWN2rd/ZZLZui//Wn11aApI=" />
+		<field:input field="wsApikey"
+			id="c_com_air41_model_A41Customers_wsApikey"
+			z="cXiayj79D/zF5+abX/eTXOFteGs=" />
+		<field:input field="agencyCredit"
+			id="c_com_air41_model_A41Customers_agencyCredit"
+			validationMessageCode="field_invalid_number"
+			z="jZE1skcsuagbDN5pnfkSn7WiLEU=" />
+		<field:input field="companyTaxNo"
+			id="c_com_air41_model_A41Customers_companyTaxNo"
+			z="zF1bsKnaSiXcpMZ5Ykuq12IcT2o=" />
+		<field:checkbox field="directbookingAllowed"
+			id="c_com_air41_model_A41Customers_directbookingAllowed"
+			z="D7eCiFNFrD8Z4Tx1CNhxDOy9mXA=" />
+		<field:input field="agencyServicesCommission"
+			id="c_com_air41_model_A41Customers_agencyServicesCommission"
+			validationMessageCode="field_invalid_number"
+			z="VpgY7BY+xersQ8TMxgoBBfq2lUA=" />
+		<field:input field="agencyServicesCommissionPriceUnit"
+			id="c_com_air41_model_A41Customers_agencyServicesCommissionPriceUnit"
+			z="yx0FrHTgTSN+0MCijKuzeliMPuY=" />
+	</form:create>
+	<form:dependency dependencies="${dependencies}"
+		id="d_com_air41_model_A41Customers" render="${not empty dependencies}"
+		z="D4/LhD2E5AgSMIPxnKGy7AW5kWI=" />
+</div>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Notifications"
+		object="${a41notifications}" path="/a41notificationses"
+		z="fg32LLaecR//P7RVM6l0+bZZraw=">
+		<field:display field="idNotificationType"
+			id="s_com_air41_model_A41Notifications_idNotificationType"
+			object="${a41notifications}" z="/72PTG4wBLhvMPTrC3ZfHfpWM9k=" />
+		<field:display field="idFlightSegment"
+			id="s_com_air41_model_A41Notifications_idFlightSegment"
+			object="${a41notifications}" z="CPcvVhsPGRDUCHFKQNZHcGjpEXo=" />
+		<field:display field="idInvoice"
+			id="s_com_air41_model_A41Notifications_idInvoice"
+			object="${a41notifications}" z="izXuEqWYC+Idg0QxOO4/HRFKSYk=" />
+		<field:display field="status"
+			id="s_com_air41_model_A41Notifications_status"
+			object="${a41notifications}" z="j/IesTHyAx6o9luTPMMoxTA3M1c=" />
+		<field:display field="idPriority"
+			id="s_com_air41_model_A41Notifications_idPriority"
+			object="${a41notifications}" z="vjFltlpvOr2sjGsfgJGHw1GCXnE=" />
+		<field:display field="detailText"
+			id="s_com_air41_model_A41Notifications_detailText"
+			object="${a41notifications}" z="Zn/l1uCeWSsE98M2KxLpG/8HNAE=" />
+		<field:display field="dispatched"
+			id="s_com_air41_model_A41Notifications_dispatched"
+			object="${a41notifications}" z="8TcFb+fUGVl93P/I16bDdqFaPfg=" />
+	</page:show>
+</div>

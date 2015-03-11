@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Customers"
+		object="${a41customers}" path="/a41customerses"
+		z="cDzmHT8As+d+sO6lzvw9STF/F4U=">
+		<field:display field="idMasterAgency"
+			id="s_com_air41_model_A41Customers_idMasterAgency"
+			object="${a41customers}" z="PxuwkiqZOV9djbmEBmYjhkxORtg=" />
+		<field:display field="idCarrier"
+			id="s_com_air41_model_A41Customers_idCarrier"
+			object="${a41customers}" z="FzTr/5MK92/LYUZXoLtb19p6zvI=" />
+		<field:display field="idCountry"
+			id="s_com_air41_model_A41Customers_idCountry"
+			object="${a41customers}" z="VYCppJf1/O6NhvcqP5aGjhjfbiw=" />
+		<field:display field="idSecondaryCurrency"
+			id="s_com_air41_model_A41Customers_idSecondaryCurrency"
+			object="${a41customers}" z="FtVjOWnLP2waa+Zpz2CiWdZpvqE=" />
+		<field:display field="type" id="s_com_air41_model_A41Customers_type"
+			object="${a41customers}" z="bfCLOH7U+nA5CFGdUpy+DHKXzGQ=" />
+		<field:display field="firstName"
+			id="s_com_air41_model_A41Customers_firstName"
+			object="${a41customers}" z="BVuh+U3kLseitzXmBpw9WVqO5o8=" />
+		<field:display field="lastName"
+			id="s_com_air41_model_A41Customers_lastName" object="${a41customers}"
+			z="2TPb69rUkPrDAvsc1task6IFkMg=" />
+		<field:display field="salutation"
+			id="s_com_air41_model_A41Customers_salutation"
+			object="${a41customers}" z="QUX6/lKcBUlyNumfGGVjDOcCUQU=" />
+		<field:display field="companyName"
+			id="s_com_air41_model_A41Customers_companyName"
+			object="${a41customers}" z="Ivy5LHGYPVuEKiB8Yye5blS80es=" />
+		<field:display field="address"
+			id="s_com_air41_model_A41Customers_address" object="${a41customers}"
+			z="Z0kDvFVkQDlFnuBu1RqWrsPKjrA=" />
+		<field:display field="location"
+			id="s_com_air41_model_A41Customers_location" object="${a41customers}"
+			z="P5qZQ6iESH3nlAQNZ2W+kbczu5I=" />
+		<field:display field="postalCode"
+			id="s_com_air41_model_A41Customers_postalCode"
+			object="${a41customers}" z="lNIW2ewVcf+37dUYyUsQmwkRufg=" />
+		<field:display field="city" id="s_com_air41_model_A41Customers_city"
+			object="${a41customers}" z="NiFtascXfr4dzgyd6+FrC8aGe8k=" />
+		<field:display field="phone" id="s_com_air41_model_A41Customers_phone"
+			object="${a41customers}" z="N718rvjpU7+uh5PKWettbYMwHUc=" />
+		<field:display field="fax" id="s_com_air41_model_A41Customers_fax"
+			object="${a41customers}" z="2AyabuwSG+m02nbXdchsrT1dv0E=" />
+		<field:display field="email" id="s_com_air41_model_A41Customers_email"
+			object="${a41customers}" z="k1c9VbUCehgoBQiO84Bvwd7UTdo=" />
+		<field:display field="ccOwner"
+			id="s_com_air41_model_A41Customers_ccOwner" object="${a41customers}"
+			z="mHU2eEt0JQmT2eFj77cJMdYhQ/4=" />
+		<field:display field="ccAccountNo"
+			id="s_com_air41_model_A41Customers_ccAccountNo"
+			object="${a41customers}" z="3s/qtR9Pg1/8/Kma2+Tt5ktJFhg=" />
+		<field:display field="ccCvc" id="s_com_air41_model_A41Customers_ccCvc"
+			object="${a41customers}" z="aT+WsT5n9ogSn3IQPNhUSoMBE1c=" />
+		<field:display field="ccExpMonth"
+			id="s_com_air41_model_A41Customers_ccExpMonth"
+			object="${a41customers}" z="B+atMkk65JQDXTvhn0SSaenOVDY=" />
+		<field:display field="ccExpYear"
+			id="s_com_air41_model_A41Customers_ccExpYear"
+			object="${a41customers}" z="sFnwK0ygtMszkY7gk+6E9NL31CM=" />
+		<field:display field="bankAccountOwner"
+			id="s_com_air41_model_A41Customers_bankAccountOwner"
+			object="${a41customers}" z="yxtYe3wtHvsDhHejh6kAZ68kJFM=" />
+		<field:display field="bankAccountNo"
+			id="s_com_air41_model_A41Customers_bankAccountNo"
+			object="${a41customers}" z="91346lOH6c6kYgphxtUx1pcVgJU=" />
+		<field:display field="bankCode"
+			id="s_com_air41_model_A41Customers_bankCode" object="${a41customers}"
+			z="sUA4GliD/E2ndBtjTypwRrQU8bA=" />
+		<field:display field="bankName"
+			id="s_com_air41_model_A41Customers_bankName" object="${a41customers}"
+			z="M9OSgdWCHMePJg5FRJzQvNTP7lg=" />
+		<field:display field="agencyIsMaster"
+			id="s_com_air41_model_A41Customers_agencyIsMaster"
+			object="${a41customers}" z="szxTDBrm4q+05gW1zdXgdVgx5V8=" />
+		<field:display field="agencyContractNo"
+			id="s_com_air41_model_A41Customers_agencyContractNo"
+			object="${a41customers}" z="QGklaMpeIlZ0FKMm/P9HOVcopTs=" />
+		<field:display field="agencyCode"
+			id="s_com_air41_model_A41Customers_agencyCode"
+			object="${a41customers}" z="BCbnGhOeQcVAFKKsLDAYptFyyXg=" />
+		<field:display field="agencyContractCommission"
+			id="s_com_air41_model_A41Customers_agencyContractCommission"
+			object="${a41customers}" z="n+rT9HnJO1vqhPjvPNTflKZZ8Gg=" />
+		<field:display field="agencyContractCommissionPriceUnit"
+			id="s_com_air41_model_A41Customers_agencyContractCommissionPriceUnit"
+			object="${a41customers}" z="gf26iTRHhZsxmO+UZLho9C6MMPM=" />
+		<field:display field="agencyRebookingCommission"
+			id="s_com_air41_model_A41Customers_agencyRebookingCommission"
+			object="${a41customers}" z="KJytJNGxHOGPwp5DvBa2BCaD5aE=" />
+		<field:display field="agencyRebookingCommissionPriceUnit"
+			id="s_com_air41_model_A41Customers_agencyRebookingCommissionPriceUnit"
+			object="${a41customers}" z="ByYBRrH2VWfe8CEHXAvltrsAPaQ=" />
+		<field:display field="cashPaymentLimit"
+			id="s_com_air41_model_A41Customers_cashPaymentLimit"
+			object="${a41customers}" z="IFgDKUmfMJERUiGyGqgYnghWD14=" />
+		<field:display field="agencyPaysBrutto"
+			id="s_com_air41_model_A41Customers_agencyPaysBrutto"
+			object="${a41customers}" z="lB0uUiy5q6JYmwMlbR8UKTzAKKE=" />
+		<field:display field="remarks"
+			id="s_com_air41_model_A41Customers_remarks" object="${a41customers}"
+			z="PjIhNAKUwm9NEl2nbDCh4HcV6GI=" />
+		<field:display field="website"
+			id="s_com_air41_model_A41Customers_website" object="${a41customers}"
+			z="qYCqsNWauB/FOWFrMHl7MJBY2FM=" />
+		<field:display field="updated"
+			id="s_com_air41_model_A41Customers_updated" object="${a41customers}"
+			z="mWGBL1TWLas3seKyMRgIdUFzU0k=" />
+		<field:display field="deleted"
+			id="s_com_air41_model_A41Customers_deleted" object="${a41customers}"
+			z="kCHAaT0PpQFW4445a6VOKMlKrAo=" />
+		<field:display field="agencyNamechangeCommission"
+			id="s_com_air41_model_A41Customers_agencyNamechangeCommission"
+			object="${a41customers}" z="JA0dg4yYOImwOjcx8jumCVWE/m8=" />
+		<field:display field="agencyNamechangeCommissionPriceUnit"
+			id="s_com_air41_model_A41Customers_agencyNamechangeCommissionPriceUnit"
+			object="${a41customers}" z="0ykFnYqmmPEz8C2A/GSXXAjBpNs=" />
+		<field:display field="wsApikey"
+			id="s_com_air41_model_A41Customers_wsApikey" object="${a41customers}"
+			z="AhiAd41VV2jWGIFlnTyb/To+TgE=" />
+		<field:display field="agencyCredit"
+			id="s_com_air41_model_A41Customers_agencyCredit"
+			object="${a41customers}" z="fo9kXYSsQglxLaxBbOUbepRmQJQ=" />
+		<field:display field="companyTaxNo"
+			id="s_com_air41_model_A41Customers_companyTaxNo"
+			object="${a41customers}" z="/yaQrkolABRP9jXt/VKVqKvoxcA=" />
+		<field:display field="directbookingAllowed"
+			id="s_com_air41_model_A41Customers_directbookingAllowed"
+			object="${a41customers}" z="0yFRNFE7vdq/JERoMpbMwEacETI=" />
+		<field:display field="agencyServicesCommission"
+			id="s_com_air41_model_A41Customers_agencyServicesCommission"
+			object="${a41customers}" z="PcyTAq/XRnYbPLrMUen03ZD078I=" />
+		<field:display field="agencyServicesCommissionPriceUnit"
+			id="s_com_air41_model_A41Customers_agencyServicesCommissionPriceUnit"
+			object="${a41customers}" z="ckbP3zcLiwIcu9OCbwyZyMxJ0Dg=" />
+	</page:show>
+</div>

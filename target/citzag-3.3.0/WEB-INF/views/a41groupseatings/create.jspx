@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:create id="fc_com_air41_model_A41GroupSeating"
+		modelAttribute="a41GroupSeating" path="/a41groupseatings"
+		render="${empty dependencies}" z="7xrw8ZK4jZcqE5+IQTBlb5grKEE=">
+		<field:select field="idAptFrom"
+			id="c_com_air41_model_A41GroupSeating_idAptFrom" itemValue="id"
+			items="${a41airportses}" path="/a41airportses"
+			z="UiaRQIBDydlhe3QD+jAMqoqAa3o=" />
+		<field:select field="idAptTo"
+			id="c_com_air41_model_A41GroupSeating_idAptTo" itemValue="id"
+			items="${a41airportses}" path="/a41airportses"
+			z="A9cFIPIZS+fJntG5+bAVD/UgbhE=" />
+		<field:select field="idCarrier"
+			id="c_com_air41_model_A41GroupSeating_idCarrier" itemValue="id"
+			items="${a41carrierses}" path="/a41carrierses"
+			z="YZzgBVVzFDA0+GqI/F60Mn98Kh8=" />
+		<field:select field="idAgency"
+			id="c_com_air41_model_A41GroupSeating_idAgency" itemValue="id"
+			items="${a41customerses}" path="/a41customerses"
+			z="0ePGmhrfHN46fquCybhePsYuqsc=" />
+		<field:input field="idFlightsegment"
+			id="c_com_air41_model_A41GroupSeating_idFlightsegment"
+			validationMessageCode="field_invalid_integer"
+			z="P23LJheMRW7mVO016Em3VNYNguo=" />
+		<field:input field="validFrom"
+			id="c_com_air41_model_A41GroupSeating_validFrom" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="INgIbGBgFlWZs+UFmQFuaCXElz8=" />
+		<field:input field="validTo"
+			id="c_com_air41_model_A41GroupSeating_validTo" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="sECAZEt5T+aH1ZHhfEJSU2EN4Zg=" />
+		<field:input field="noSeats"
+			id="c_com_air41_model_A41GroupSeating_noSeats"
+			validationMessageCode="field_invalid_integer"
+			z="2LpzpWiNvkG0VTzUlb7eChWNmqk=" />
+		<field:input field="noBooked"
+			id="c_com_air41_model_A41GroupSeating_noBooked"
+			validationMessageCode="field_invalid_integer"
+			z="P0+aZngV9dGJWLhtNWp4rTWWggI=" />
+		<field:input field="price"
+			id="c_com_air41_model_A41GroupSeating_price"
+			validationMessageCode="field_invalid_number"
+			z="nWXoYjTmC33kQYaAf7y+P5OVfDY=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41GroupSeating_updated"
+			validationMessageCode="field_invalid_integer"
+			z="Af4wSGj73tG5x8drox8WIjL9cjM=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41GroupSeating_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="9gH+YKOi7xKPCrEX2dNlxySTxBM=" />
+	</form:create>
+	<form:dependency dependencies="${dependencies}"
+		id="d_com_air41_model_A41GroupSeating"
+		render="${not empty dependencies}" z="4Gy4u1zqL9ZGJjLfhOXH/ThJ7Ec=" />
+</div>

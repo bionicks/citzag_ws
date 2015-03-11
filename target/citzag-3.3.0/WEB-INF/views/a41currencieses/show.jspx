@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:show id="ps_com_air41_model_A41Currencies"
+		object="${a41currencies}" path="/a41currencieses"
+		z="ZcO7HbBDOIZ+vk5RlmiX8wJHnM0=">
+		<field:display field="name" id="s_com_air41_model_A41Currencies_name"
+			object="${a41currencies}" z="M7b2zXhNhS9mhD2xsSBODKTxt4s=" />
+		<field:display field="symbol"
+			id="s_com_air41_model_A41Currencies_symbol" object="${a41currencies}"
+			z="ATSdXLV44CAT8jxQonHG5ItGuOQ=" />
+		<field:display field="code" id="s_com_air41_model_A41Currencies_code"
+			object="${a41currencies}" z="L9vIkg4NfwCPH/KCtVotZLkMXzA=" />
+		<field:display field="symbolType"
+			id="s_com_air41_model_A41Currencies_symbolType"
+			object="${a41currencies}" z="+ESf4beFqpXM1OZqlUxsWGXwjKk=" />
+	</page:show>
+</div>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+	xmlns:form="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<form:update id="fu_com_air41_model_A41Carriers"
+		modelAttribute="a41Carriers" path="/a41carrierses" versionField="none"
+		z="C6V0Qf0SpCwcpZ1r92CQteTqvaE=">
+		<field:simple field="a41Customerss"
+			id="c_com_air41_model_A41Carriers_a41Customerss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Customers" z="JGMsg9Bg6GyjA4W4leJLIseKen8=" />
+		<field:simple field="a41GroupSeatings"
+			id="c_com_air41_model_A41Carriers_a41GroupSeatings"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Group Seating"
+			z="WnecAiXRH8PYOX075vdL+1UE0WQ=" />
+		<field:simple field="a41GroupsCarrierss"
+			id="c_com_air41_model_A41Carriers_a41GroupsCarrierss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Groups Carriers"
+			z="AojOnSas/dgI945Z2YdIfOvyEBE=" />
+		<field:simple field="a41Invoiceses"
+			id="c_com_air41_model_A41Carriers_a41Invoiceses"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Invoices" z="6uqJFI1tUFk9ZvIERkl1E2ZVgXM=" />
+		<field:simple field="a41Newss"
+			id="c_com_air41_model_A41Carriers_a41Newss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 News" z="zXUEuYFy5lgE8bThhaw046ubwTQ=" />
+		<field:simple field="a41Operatorss"
+			id="c_com_air41_model_A41Carriers_a41Operatorss"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Operators" z="K5YTkcDRVu1CqD1Z8d11lgnZLiU=" />
+		<field:simple field="a41Serviceses"
+			id="c_com_air41_model_A41Carriers_a41Serviceses"
+			messageCode="entity_reference_not_managed"
+			messageCodeAttribute="A41 Services" z="Igk7MPxNUwG3bIKZIgDXEGpsNXs=" />
+		<field:select field="idCountry"
+			id="c_com_air41_model_A41Carriers_idCountry" itemValue="id"
+			items="${a41countrieses}" path="/a41countrieses"
+			z="bZpxGvse7qj8Go1hEEFG8epeA5Y=" />
+		<field:select field="idWebsiteAgency"
+			id="c_com_air41_model_A41Carriers_idWebsiteAgency" itemValue="id"
+			items="${a41customerses}" path="/a41customerses"
+			z="yh1qZV7P5e8qztObcoc8IvWLzXo=" />
+		<field:input field="code" id="c_com_air41_model_A41Carriers_code"
+			required="true" z="Bw7J0V5Yslkti4laWuKJJKcM+Ig=" />
+		<field:checkbox field="oneway"
+			id="c_com_air41_model_A41Carriers_oneway"
+			z="sDtKh+uFZIhJr2ncx059IAjPDgc=" />
+		<field:input field="ccTimeBooking"
+			id="c_com_air41_model_A41Carriers_ccTimeBooking"
+			validationMessageCode="field_invalid_integer"
+			z="apDut/BsjOAyLLJS298o1LljQiE=" />
+		<field:input field="bankTimeBooking"
+			id="c_com_air41_model_A41Carriers_bankTimeBooking"
+			validationMessageCode="field_invalid_integer"
+			z="2EEqGrlq00G/oVq1picBdK7d2UY=" />
+		<field:input field="agencyTimeBooking"
+			id="c_com_air41_model_A41Carriers_agencyTimeBooking"
+			validationMessageCode="field_invalid_integer"
+			z="tooWOXsEq7VHHsHIpQHKvTjpWAo=" />
+		<field:input field="ccTimeChticket"
+			id="c_com_air41_model_A41Carriers_ccTimeChticket"
+			validationMessageCode="field_invalid_integer"
+			z="sVbxWTlNQmbK2HHDozpKvA+YzCQ=" />
+		<field:input field="bankTimeChticket"
+			id="c_com_air41_model_A41Carriers_bankTimeChticket"
+			validationMessageCode="field_invalid_integer"
+			z="FPauy2TXJUeosQHyLA3UBkW7bqk=" />
+		<field:input field="agencyTimeChticket"
+			id="c_com_air41_model_A41Carriers_agencyTimeChticket"
+			validationMessageCode="field_invalid_integer"
+			z="pXxrt21GUYiCNE1c2QqCq58x7Ho=" />
+		<field:input field="ccFee" id="c_com_air41_model_A41Carriers_ccFee"
+			validationMessageCode="field_invalid_number"
+			z="pkWpt4BrCdb7DgeSqInR49witM8=" />
+		<field:input field="maxAgeChild"
+			id="c_com_air41_model_A41Carriers_maxAgeChild"
+			validationMessageCode="field_invalid_integer"
+			z="mbtwS7zQvjJJmayiBGU3yXRIu3U=" />
+		<field:input field="maxAgeInf"
+			id="c_com_air41_model_A41Carriers_maxAgeInf"
+			validationMessageCode="field_invalid_integer"
+			z="SRxsvoQR4vu6bccaeSoA/wOAxHA=" />
+		<field:input field="childPrice"
+			id="c_com_air41_model_A41Carriers_childPrice"
+			validationMessageCode="field_invalid_number"
+			z="V02oRytAmLyQpbeVAKzCVoMzWPE=" />
+		<field:input field="infantPrice"
+			id="c_com_air41_model_A41Carriers_infantPrice"
+			validationMessageCode="field_invalid_number"
+			z="flpLMhDUVi/Y6aawmjvNfucD0KQ=" />
+		<field:input field="rebookingFees"
+			id="c_com_air41_model_A41Carriers_rebookingFees"
+			validationMessageCode="field_invalid_number"
+			z="dtRHfsxNc62p0TC7pgNFa8TIjDc=" />
+		<field:input field="maxNumPersonBooking"
+			id="c_com_air41_model_A41Carriers_maxNumPersonBooking"
+			required="true" validationMessageCode="field_invalid_integer"
+			z="BvlAEIUZFCEK2rK7Tb/LsJp3xe4=" />
+		<field:input field="maxNumPersonBlanko"
+			id="c_com_air41_model_A41Carriers_maxNumPersonBlanko"
+			validationMessageCode="field_invalid_integer"
+			z="mnlbIq3Gv7m00r7zS1RJX6I3w0E=" />
+		<field:input field="maxNumChildBooking"
+			id="c_com_air41_model_A41Carriers_maxNumChildBooking" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="vLfKCmkHVLgQwSLgKr/k/lO+GAA=" />
+		<field:input field="maxNumInfantBooking"
+			id="c_com_air41_model_A41Carriers_maxNumInfantBooking"
+			required="true" validationMessageCode="field_invalid_integer"
+			z="N7yeaxor3t/O7AePnbQH7RE5kl0=" />
+		<field:input field="maxNumDisplayFlightDay"
+			id="c_com_air41_model_A41Carriers_maxNumDisplayFlightDay"
+			required="true" validationMessageCode="field_invalid_integer"
+			z="ah6WZmESZpuokHav1X7gIQqYPXM=" />
+		<field:input field="bookingKeyAliveMin"
+			id="c_com_air41_model_A41Carriers_bookingKeyAliveMin" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="WF7cH37ZL1LNjhHjtZ2xVsPMkok=" />
+		<field:checkbox field="allowLeftOpenJaw"
+			id="c_com_air41_model_A41Carriers_allowLeftOpenJaw"
+			z="Kg/02AGSsosgrdMHtTN/A+puDr0=" />
+		<field:checkbox field="allowRightOpenJaw"
+			id="c_com_air41_model_A41Carriers_allowRightOpenJaw"
+			z="crY2n/WAu8N76wUkKIzsAZ/pqGI=" />
+		<field:input field="officeName"
+			id="c_com_air41_model_A41Carriers_officeName" required="true"
+			z="k3B1WGcnN7ScSIxGYSN4PO6wcuE=" />
+		<field:input field="officeLocation"
+			id="c_com_air41_model_A41Carriers_officeLocation"
+			z="fpMjRc+h7SmXGw//8dlsD/72d+Q=" />
+		<field:input field="officeAddress"
+			id="c_com_air41_model_A41Carriers_officeAddress"
+			z="X9Fr9mU9Y4A+mbl+SpLaUb1JYEM=" />
+		<field:input field="officePostalCode"
+			id="c_com_air41_model_A41Carriers_officePostalCode"
+			z="ADE/QjFaoJNdBqA35LiQZE9HuwA=" />
+		<field:input field="officePhone"
+			id="c_com_air41_model_A41Carriers_officePhone"
+			z="KTxHXuR4AS/e/VvOh5kYwbR9F/s=" />
+		<field:input field="officeFax"
+			id="c_com_air41_model_A41Carriers_officeFax"
+			z="fghmWpekgwKFGBSiCeDTEbiuu2U=" />
+		<field:input field="officeContactPerson"
+			id="c_com_air41_model_A41Carriers_officeContactPerson"
+			z="u7XlQK4w3ZJV7UV852S6XqnMyQg=" />
+		<field:input field="updated"
+			id="c_com_air41_model_A41Carriers_updated"
+			validationMessageCode="field_invalid_integer"
+			z="BBrRWLLu8mPhT3/QJj7Q0bOueyk=" />
+		<field:input field="deleted"
+			id="c_com_air41_model_A41Carriers_deleted"
+			validationMessageCode="field_invalid_integer"
+			z="XTF/dtd/hTk0YDerqDB6R4/qK3M=" />
+		<field:input field="namechangeFee"
+			id="c_com_air41_model_A41Carriers_namechangeFee"
+			validationMessageCode="field_invalid_number"
+			z="ue8qs7+uekoyexkUzDxsRtcFPWw=" />
+		<field:input field="namechangeNumDay"
+			id="c_com_air41_model_A41Carriers_namechangeNumDay"
+			validationMessageCode="field_invalid_integer"
+			z="m35TiRpGCdSrGyS7RgOtIhUbhxg=" />
+		<field:input field="seatReservationNumdayBooking"
+			id="c_com_air41_model_A41Carriers_seatReservationNumdayBooking"
+			validationMessageCode="field_invalid_integer"
+			z="DcDoQU/7PhzxfY/7v5WieYRSlfg=" />
+		<field:input field="wirecardBusinesscase"
+			id="c_com_air41_model_A41Carriers_wirecardBusinesscase"
+			z="tANC+z+vx6Org0l1CiZNZ1iVHvA=" />
+		<field:input field="wirecardUsername"
+			id="c_com_air41_model_A41Carriers_wirecardUsername"
+			z="3FJx9EbFzRpDsCSfgR9o0ulUw+Q=" />
+		<field:input field="wirecardPasswd"
+			id="c_com_air41_model_A41Carriers_wirecardPasswd"
+			z="jzSgJ+5R8uQYOyi5ZP53zcxDL5M=" />
+		<field:input field="iataCode"
+			id="c_com_air41_model_A41Carriers_iataCode"
+			z="oF8GJWuGbUq7pdm3WhL3j0raDKE=" />
+		<field:input field="baseCurrency"
+			id="c_com_air41_model_A41Carriers_baseCurrency" required="true"
+			z="QU9l27XR2MxzkpKx1jzsX3Y7pCQ=" />
+		<field:input field="allotmentBaseMode"
+			id="c_com_air41_model_A41Carriers_allotmentBaseMode" required="true"
+			z="w0njaBA6AmpcFIneCe/b+bKvorA=" />
+		<field:input field="idDefaultOperator"
+			id="c_com_air41_model_A41Carriers_idDefaultOperator"
+			validationMessageCode="field_invalid_integer"
+			z="mRfTbj8TrIgZDYBBG7VebF/alEg=" />
+		<field:input field="flightNoMode"
+			id="c_com_air41_model_A41Carriers_flightNoMode" required="true"
+			validationMessageCode="field_invalid_integer"
+			z="FpSZreOum7tdgKHCwxb9XbyP+n4=" />
+		<field:checkbox field="onlyOneView"
+			id="c_com_air41_model_A41Carriers_onlyOneView"
+			z="Asmo3b5cZqu8pD/WzmSQzVZOuAA=" />
+	</form:update>
+</div>

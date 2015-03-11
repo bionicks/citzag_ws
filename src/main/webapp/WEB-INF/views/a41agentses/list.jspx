@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:page="urn:jsptagdir:/WEB-INF/tags/form"
+	xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<page:list id="pl_com_air41_model_A41Agents" items="${a41agentses}"
+		z="wd/+NMWDdrIjJgqNi+eZN3BsHAY=">
+		<table:table data="${a41agentses}" id="l_com_air41_model_A41Agents"
+			path="/a41agentses" z="DyZC9KeN63wBoTbj4vXd5xlB+e8=">
+			<table:column id="c_com_air41_model_A41Agents_idCustomer"
+				property="idCustomer" z="hA0KZPp0TkdCQ1B9alt4TESRWjY=" />
+			<table:column id="c_com_air41_model_A41Agents_username"
+				property="username" z="XtA8QwW8u2lQ8uPjGiQ5OCjB7Uo=" />
+			<table:column id="c_com_air41_model_A41Agents_password"
+				property="password" z="BVihXRDZmgE8nDDcBKiltvFHn0A=" />
+			<table:column id="c_com_air41_model_A41Agents_firstname"
+				property="firstname" z="zX1moEBPltdZVDtMwkvPT4VXdvE=" />
+			<table:column id="c_com_air41_model_A41Agents_lastname"
+				property="lastname" z="XWLZwdFzQiU4umW+we2/96v+dtU=" />
+		</table:table>
+	</page:list>
+</div>
