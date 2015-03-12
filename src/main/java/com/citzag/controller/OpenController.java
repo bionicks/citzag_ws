@@ -26,13 +26,15 @@ public class OpenController   {
 
 	
 	
+
 	@RequestMapping(value = "/fetch", method = RequestMethod.GET,produces = "application/json; charset=utf-8")    
 	@ResponseBody
 	  public ResponseEntity<String> fetch(HttpServletRequest  request) {        
         HttpHeaders headers = new HttpHeaders();        
-        String langCode = "en";
-        return new ResponseEntity<String>("hola", headers, HttpStatus.OK);
+        List<CzUsers> users = CzUsers.findAllCzUserses();
+        return new ResponseEntity<String>(JSONizer.toJson(users), headers, HttpStatus.OK);
 	}
+
 
 	
 }
