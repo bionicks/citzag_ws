@@ -26,7 +26,7 @@
  http://www.springframework.org/schema/integration/stream 
  http://www.springframework.org/schema/integration/stream/spring-integration-stream-2.0.xsd
  http://www.springframework.org/schema/integration/ftp
-	http://www.springframework.org/schema/integration/ftp/spring-integration-ftp-2.0.xsd">
+http://www.springframework.org/schema/integration/ftp/spring-integration-ftp-2.0.xsd">
 	<!-- This will automatically locate any and all property files you have 
 		within your classpath, provided they fall under the META-INF/spring directory. 
 		The located property files are parsed and their values can then be used within 
@@ -107,6 +107,11 @@
         <property name="maxIdleTime" value="3000" />
  </bean>
 
+<bean id="services" class="com.citzag.businessdelegate.RestClientServicesImpl" />
+<bean id="myRunnableThingy" class="com.citzag.businessdelegate.UpdateContentService"/>
+<bean id="thingyThread" class="java.lang.Thread" init-method="start">
+  <constructor-arg ref="myRunnableThingy"/>
+</bean>
 
 	
 	<bean class="org.springframework.orm.jpa.JpaTransactionManager"

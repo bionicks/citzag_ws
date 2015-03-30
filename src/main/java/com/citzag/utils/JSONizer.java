@@ -5,6 +5,7 @@ import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
+
 import flexjson.JSONDeserializer;
 import flexjson.JSONSerializer;
 
@@ -20,7 +21,7 @@ public class JSONizer {
 		}				
 		
 		if ( r!= null )Charset.defaultCharset().encode(r);
-	    
+		System.out.println( ("Using charset:" + Charset.defaultCharset().displayName() ));
 	    	
 	    return r;
 	}
