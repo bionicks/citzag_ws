@@ -17,11 +17,11 @@ public class CORSFilter implements Filter {
 		ServletRequest request, ServletResponse response, 
 		FilterChain chain) throws IOException, ServletException {
 
-		/*
+		
 		((HttpServletResponse)response).addHeader(
 			"Access-Control-Allow-Origin", "*"
 		);
-		*/
+		
 		((HttpServletResponse)response).addHeader(
 				"Access-Control-Expose-Headers", "Air41-Status,Air41-Error,apiKey,langCode"
 			);

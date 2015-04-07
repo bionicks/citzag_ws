@@ -25,7 +25,7 @@ privileged aspect CzUsers_Roo_Jpa_ActiveRecord {
     }
     
     public static List<CzUsers> CzUsers.findAllCzUserses() {
-        return entityManager().createQuery("SELECT o FROM CzUsers o", CzUsers.class).getResultList();
+        return entityManager().createQuery("SELECT o FROM CzUsers o order by o.id DESC", CzUsers.class).getResultList();
     }
     
     public static CzUsers CzUsers.findCzUsers(Integer id) {

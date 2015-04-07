@@ -1,5 +1,15 @@
 <aspectj>
 <aspects>
+<aspect name="com.citzag.daos.CzZag_Roo_ToString"/>
+<aspect name="com.citzag.daos.CzUsers_Roo_ToString"/>
+<aspect name="com.citzag.daos.CzZag_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.citzag.daos.CzUsers_Roo_Configurable"/>
+<aspect name="com.citzag.daos.CzZag_Roo_Jpa_Entity"/>
+<aspect name="com.citzag.daos.CzZag_Roo_DbManaged"/>
+<aspect name="com.citzag.daos.CzZag_Roo_Configurable"/>
+<aspect name="com.citzag.daos.CzUsers_Roo_DbManaged"/>
+<aspect name="com.citzag.daos.CzUsers_Roo_Jpa_Entity"/>
+<aspect name="com.citzag.daos.CzUsers_Roo_Jpa_ActiveRecord"/>
 </aspects>
 </aspectj>
 

@@ -30,6 +30,7 @@ import com.citzag.daos.CzUsers;
 import com.citzag.model.CzUser;
 import com.citzag.utils.JSONizer;
 import com.citzag.utils.QRGenerator;
+import com.citzag.utils.StaticContent;
 
 
 /**
@@ -67,6 +68,10 @@ public class OpenController   {
 	  public ResponseEntity<String> add(@PathVariable("username") String username,HttpServletRequest  request) {  
 		  HttpHeaders headers = new HttpHeaders(); 
         services.addUsers(username);
+        List<CzUsers> users =  CzUsers.findAllCzUserses();        
+		for ( CzUsers u : users ){
+			StaticContent.getCustomersIds().add(u.getIdInstagram() );
+		}
         return new ResponseEntity<String>( headers, HttpStatus.OK);
 	}
 	

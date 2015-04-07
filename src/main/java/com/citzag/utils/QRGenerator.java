@@ -25,8 +25,9 @@ public class QRGenerator {
 	 public static BufferedImage gen(String args ) {
 		 
 	        String myCodeText = args;
+	        myCodeText = UriCodec.decodeURIComponent(myCodeText);
 	        String filePath = "/Users/jonas/CrunchifyQR.png";
-	        int size = 125;
+	        int size = 300;
 	        String fileType = "png";
 	        File myFile = new File(filePath);
 	        BufferedImage image = null;
